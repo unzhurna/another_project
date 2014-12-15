@@ -3,9 +3,9 @@
 <head>
     <title>Welcome to pigipasiar.com</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta name="keywords" content="Template, html, premium, themeforest" />
-    <meta name="description" content="Traveler - Premium template for travel companies">
-    <meta name="author" content="Tsoy">
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <meta name="author" content="unzhurna">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- GOOGLE FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
@@ -20,20 +20,6 @@
 </head>
 
 <body class="full">
-
-    <!-- FACEBOOK WIDGET -->
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- /FACEBOOK WIDGET -->
     <div class="global-wrap">
         <div class="full-page">
             <div class="bg-holder full">
@@ -89,30 +75,19 @@
                         </div>
                     </div>
                     <ul class="footer-links">
-                        <li><a href="#">About</a>
-                        </li>
-                        <li><a href="#">Help</a>
-                        </li>
-                        <li><a href="#">Hot Deals</a>
-                        </li>
-                        <li><a href="#">Popular Locations</a>
-                        </li>
-                        <li><a href="#">Cheap Flights</a>
-                        </li>
-                        <li><a href="#">Business</a>
-                        </li>
-                        <li><a href="#">Media</a>
-                        </li>
-                        <li><a href="#">Developers</a>
-                        </li>
-                        <li><a href="#">Advertise</a>
-                        </li>
+                        <li><?php echo anchor('', 'About'); ?></li>
+                        <li><?php echo anchor('', 'Help'); ?></li>
+                        <li><?php echo anchor('', 'Hot Deals'); ?></li>
+                        <li><?php echo anchor('', 'Popular Locations'); ?></li>
+                        <li><?php echo anchor('', 'Cheap Flights'); ?></li>
+                        <li><?php echo anchor('', 'Business'); ?></li>
+                        <li><?php echo anchor('', 'Media'); ?></li>
+                        <li><?php echo anchor('', 'Developers'); ?></li>
+                        <li><?php echo anchor('', 'Advertise'); ?></li>
                     </ul>
                 </div>
             </div>
         </div>
-
-
 
         <script src="<?php echo config_item('assets'); ?>js/jquery.js"></script>
         <script src="<?php echo config_item('assets'); ?>js/bootstrap.js"></script>
